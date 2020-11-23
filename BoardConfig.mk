@@ -100,6 +100,8 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 LZMA_RAMDISK_TARGETS := recovery
 
 # Crypto
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
+TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 
