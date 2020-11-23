@@ -14,5 +14,17 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a70q.mk
+# Release name
+PRODUCT_RELEASE_NAME := violet
+
+$(call inherit-product, build/target/product/embedded.mk)
+
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+## Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := a70q
+PRODUCT_NAME := lineage_a70q
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-A705FN
+PRODUCT_MANUFACTURER := samsung

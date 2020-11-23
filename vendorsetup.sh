@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The TwrpBuilder Open-Source Project
+# Copyright (C) 2020 The TwrpBuilder Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,18 +14,6 @@
 # limitations under the License.
 #
 
-# Release name
-PRODUCT_RELEASE_NAME := violet
-
-$(call inherit-product, build/target/product/embedded.mk)
-
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
-## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := violet
-PRODUCT_NAME := lineage_violet
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Redmi Note 7 Pro
-PRODUCT_MANUFACTURER := Xiaomi
-
+add_lunch_combo lineage_a70q-eng
+add_lunch_combo lineage_a70q-user
+add_lunch_combo lineage_a70q-userdebug
