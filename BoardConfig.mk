@@ -87,7 +87,6 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 
 # File systems
 TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
