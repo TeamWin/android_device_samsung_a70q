@@ -1,8 +1,8 @@
 [
 	{
 		"remote":"github",
-		"repository":"adarshkushwah/android_kernel_xiaomi_sm6150",
-		"target_path":"kernel/xiaomi/sm6150",
-		"revision":"violet-p-oss"
+		"repository":"a70q-dev/android_kernel_samsung_a70q",
+		"target_path":"kernel/samsung/a70q",
+		"revision":"twrp-9.0"
 	}
 ]
