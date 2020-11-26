@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := violet
+PRODUCT_RELEASE_NAME := a70q
 
 $(call inherit-product, build/target/product/embedded.mk)
 
