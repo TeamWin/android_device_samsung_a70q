@@ -3,6 +3,6 @@
 		"remote":"github",
 		"repository":"a70q-dev/android_kernel_samsung_a70q",
 		"target_path":"kernel/samsung/a70q",
-		"revision":"twrp-9.0"
+		"revision":"android-9.0"
 	}
 ]
